@@ -128,6 +128,7 @@ def reload(name):
 
 @blueprint.route('/list', methods=['GET'])
 def plugins():
+
     """
     Read the central plugin yaml to get a list of all official plugins
     :return:
